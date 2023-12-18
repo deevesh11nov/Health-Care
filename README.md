@@ -1,6 +1,6 @@
 # Health Care
 
-## About
+## Description
 This is a healthcare site designed to assist patients with their health-related problems. Through intuitive features, patients can engage in real-time text conversations with doctors. The site provides information about different doctors and their specialties. A patient form page is also available, allowing patients to fill in their details and describe their health concerns.
 
 ## Installation
