@@ -7,11 +7,19 @@ app.use(cors());
 
 const server = http.createServer(app);
 
+// const io = new Server(server, {
+//   cors: {
+//     origin: "https://mellow-daifuku-dee5d9.netlify.app",
+    
+//     methods: ["GET", "POST"],
+//   },
+// });
 const io = new Server(server, {
   cors: {
-    //origin: "https://mellow-daifuku-dee5d9.netlify.app",
-    origin: "*",
-    methods: ["GET", "POST"],
+    origin: true,
+     methods: ["GET", "POST"],
+    credentials: true,
+   
   },
 });
 
