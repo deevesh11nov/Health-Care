@@ -9,7 +9,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "http://127.0.0.1:5173",
+    origin: "https://mellow-daifuku-dee5d9.netlify.app",
     methods: ["GET", "POST"],
   },
 });
